@@ -8,7 +8,7 @@ import utilities.HelperUtil;
 import utilities.WaitUtil;
 
 /**
- * Created by sadiq on 23/09/20.
+ * @akash gauravs
  */
 public class ReservePage extends BasePage {
 
@@ -41,5 +41,8 @@ public class ReservePage extends BasePage {
         waitUtil.isElementVisible(reservePageTitle, explicitTimeOut);
         reservePageTitle.isDisplayed();
     }
-
+    public void verifyReservePageDisplayeds(){
+        waitUtil.isElementVisible(reservePageTitle, explicitTimeOut);
+        reservePageTitle.isDisplayed();
+    }
 }

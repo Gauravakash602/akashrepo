@@ -1,7 +1,7 @@
 package tests;
 
-import builder.BookingDetailsBuilder;
-import model.BookingDetailsModel;
+import pageCreator.BookingDetailsCreator;
+
 import org.openqa.selenium.support.PageFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

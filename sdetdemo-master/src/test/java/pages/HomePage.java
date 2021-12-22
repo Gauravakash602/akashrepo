@@ -8,7 +8,7 @@ import utilities.HelperUtil;
 import utilities.WaitUtil;
 
 /**
- * @akash gaurav
+ * @akash gauravs
  */
 public class HomePage extends BasePage {
 

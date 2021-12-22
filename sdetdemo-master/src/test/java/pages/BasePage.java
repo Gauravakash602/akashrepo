@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.ConfigWriter;
 
 /**
- * Created by sadiq on 23/09/20.
+ * @author akash gaurav.s
  */
 public abstract class BasePage {
 
@@ -22,5 +22,10 @@ public abstract class BasePage {
     @BeforeSuite(alwaysRun = true)
     void Config() {
         ConfigWriter.setPropertyValue("logger.file", "webLogger", ConfigReader.get("config.path"));
+        System.out.println("intialising");
+        
     }
+    
+    
+    
 }
